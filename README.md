@@ -48,7 +48,7 @@ else:
 This will print "B" since 85 >= 80.
 ```
 </details>
-#### Q2: Fixed age classification code
+Q2: Fixed age classification code
 
 ```bash
 age = 15
@@ -60,7 +60,7 @@ else:
 print("Adult")
 ```
 
-<details> <summary>Answer</summary>
+<details> <summary>👉Answer</summary>
  This will print "Teen" since 13 <= 15 < 20.
 </details>
 #### Q3: Temperature classification
@@ -77,7 +77,7 @@ else:
 print("Warm")
 ```
 
-<details> <summary>Answer</summary>
+<details> <summary>👉Answer</summary>
  This will print "Moderate" since 10 < 15 <= 20.
 </details>
 
@@ -93,6 +93,6 @@ else:
 print("C")
 ```
 
-<details> <summary>Answer</summary>
+<details> <summary>👉Answer</summary>
 This prints "A" since 5 > 3, and other blocks are skipped.
 </details>
