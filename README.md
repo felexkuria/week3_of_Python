@@ -1,23 +1,29 @@
-````markdown
-# Understanding Control Flow: If, Elif, and Else in Python
+# Understanding the `if...elif...else` Statement in Python
 
-## Introduction
+The `if...elif...else` statement allows you to handle multiple conditions sequentially. Here’s how it works:
 
-This guide covers the fundamentals of conditional statements in Python using if, elif, and else constructs.
+## Structure
 
-## Basic Structure
+- **`if`**: The first condition is checked.
+  - If `True`, its code block runs, and the rest are skipped.
+  - If `False`, Python moves to the next condition.
+- **`elif`** (Short for "else if"):
+  - If the previous conditions are `False`, this condition is checked.
+  - You can have multiple `elif` blocks for complex logic.
+- **`else`**:
+  - Acts as the "default" case if all previous conditions fail.
+
+---
+
+## Example Breakdown
 
 ```python
-if condition1:
-    # code block 1
-elif condition2:
-    # code block 2
-else:
-    # default code block
-arkdown
-# Understanding Control Flow: If, Elif, and Else in Python
+temperature = 15
 
-## Introduction
-This guide covers the fundamentals of conditional statements in Python using if, elif, and else constructs.
+if temperature > 25:
+    print("It's a hot day!")      # Block 1
+elif temperature > 15:
+    print("It's a warm day!")     # Block 2
+else:
+    print("It's a cold day!")     # Block 3
 ```
-````
