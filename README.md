@@ -36,13 +36,18 @@ else:
 if score >= 90:
     print("A")
 elif score >= 80:
-    print("B") # This will print since 85 >= 80
+    print("B")
 elif score >= 70:
     print("C")
 else:
     print("F")
 ```
 
+<details> <summary>Answer</summary>
+```
+This will print "B" since 85 >= 80.
+```
+</details>
 #### Q2: Fixed age classification code
 
 ```bash
@@ -50,11 +55,14 @@ age = 15
 if age < 13:
 print("Child")
 elif age < 20:
-print("Teen") # This will print since 13 <= 15 < 20
+print("Teen")
 else:
 print("Adult")
 ```
 
+<details> <summary>Answer</summary>
+ This will print "Teen" since 13 <= 15 < 20.
+</details>
 #### Q3: Temperature classification
 
 ```bash
@@ -64,10 +72,14 @@ if temp <= 0:
 elif temp <= 10:
     print("Chilly")
 elif temp <= 20:
-    print("Moderate") # This will print since 10 < 15 <= 20
+    print("Moderate")
 else:
 print("Warm")
 ```
+
+<details> <summary>Answer</summary>
+ This will print "Moderate" since 10 < 15 <= 20.
+</details>
 
 #### Q4: Bug demonstration
 
@@ -80,3 +92,7 @@ elif x > 1:
 else:
 print("C")
 ```
+
+<details> <summary>Answer</summary>
+This prints "A" since 5 > 3, and other blocks are skipped.
+</details>
