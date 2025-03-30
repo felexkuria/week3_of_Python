@@ -28,3 +28,18 @@ elif grade >=0:
     print("F")
 else:
     print("E")
+
+# Write a function to check whether a student passed or failed his/her examination.
+# Assume the pass marks to be 50.
+# Return Passed if the student scored more than 50. Otherwise, return Failed.
+
+
+def main_score(score):
+
+    if score>=50:
+        print('you passed your exam')
+    else:
+        print('You Failed your exam')
+    return score
+    
+main_score(10)
